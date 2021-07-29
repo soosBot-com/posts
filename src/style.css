@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap");
+body {
+  background-color: #1b1b1b;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.search {
+  font-size: 2em;
+  padding: 0.2em;
+  border: none;
+  background-color: #353535;
+  border-radius: 0.2em;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  color: #8b8b8b;
+  margin-right: 0.2em;
+}
+
+.search:focus {
+  outline: none;
+  color: #b4b4b4;
+}
+
+.search:hover {
+  color: #b4b4b4;
+}
+
+.search-button {
+  -webkit-box-shadow: 0px 0px 20px 0px #1b1b1b;
+          box-shadow: 0px 0px 20px 0px #1b1b1b;
+  font-size: 2em;
+  padding: 0.2em;
+  border: none;
+  border-radius: 0.2em;
+  color: white;
+  background-color: #444444;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.search-button:hover {
+  background-color: #363636;
+}
+
+.search-button:active {
+  background-color: #292929;
+}
+
+.searched {
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */
